@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    
+    display: grid;
+    grid-template-columns: repeate (5, 1fr);
+    grid-template-rows: 100px;
+}
+
+.item {
+    background-color: aqua;
+    margin: 20px;
+ 
+}
