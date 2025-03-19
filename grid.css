@@ -6,12 +6,35 @@
 #container {
     
     display: grid;
-    grid-template-columns: repeate (5, 1fr);
-    grid-template-rows: 100px;
+    grid-template-areas:
+    'header header'
+    'aside article'
+    'section section'
+    'footer footer';
+    gap: 30px;
 }
 
-.item {
-    background-color: aqua;
-    margin: 20px;
- 
+header {
+    grid-area: header;
+    background-color: lightgray;
+}
+
+aside {
+    grid-area: aside;
+    background-color: lightblue;
+}
+
+article {
+    grid-area: article;
+    background-color: lightgreen;
+}
+
+section {
+    grid-area: section;
+    background-color: lightyellow;
+}
+
+footer {
+    grid-area: footer;
+    background-color: lightpink;
 }

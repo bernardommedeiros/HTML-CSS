@@ -11,7 +11,11 @@
 
 - ```grid-template-rows```: define a altura de cada linha do layout(geralmente, utiliza-se fr).
 
-- ```grid-template-areas```: define a altura de cada linha do layout(geralmente, utiliza-se fr).
+- ```grid-template-areas```: organização do grid em áreas definidas como "variáveis", define as linhas e colunas em sua estrutura.
+
+- ```grid-area```: define ao elemento a "variável" a que ele pertence no template.
+
+- ```grid-auto-rows```: define ao tamanho das linhas, independente da quantidade.
 
 - ```repeate()```: recebe como parâmetro a quantidade vezes que irá repetir e a medida, exemplo: repeat(10, 100px).
 
